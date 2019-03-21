@@ -49,7 +49,8 @@ INSTALACIÓN DE NODEJS + ANGULAR 4
 
 6. Volvemos a comprobar la versión de Angular y es ahora cuando vemos que ya disponemos de Angular 4.
 
-7. Lanzamos la aplicación, al colocar el comando –o al final lo que conseguimos es que cuando termine de compilar se abra directamente en el navegador bajo el puerto 4200.
+7. Lanzamos la aplicación, al colocar el comando –o al final lo que conseguimos es que cuando termine de compilar
+se abra directamente en el navegador bajo el puerto 4200.
 
 							ng serve --o
 
