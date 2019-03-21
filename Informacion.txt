@@ -44,7 +44,10 @@ INSTALACIÓN DE NODEJS + ANGULAR 4
 
 5. Actualizar a la última version de Angular
 
-			npm install @angular/common@latest @angular/compiler@latest @angular/compiler-cli@latest @angular/core@latest @angular/forms@latest @angular/http@latest @angular/platform-browser@latest @angular/platform-browser-dynamic@latest @angular/platform-server@latest @angular/router@latest @angular/animations@latest typescript@latest --save
+			npm install @angular/common@latest @angular/compiler@latest @angular/compiler-cli@latest 
+			@angular/core@latest @angular/forms@latest @angular/http@latest @angular/platform-browser@latest
+			@angular/platform-browser-dynamic@latest @angular/platform-server@latest @angular/router@latest 
+			@angular/animations@latest typescript@latest --save
 
 
 6. Volvemos a comprobar la versión de Angular y es ahora cuando vemos que ya disponemos de Angular 4.
