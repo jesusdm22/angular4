@@ -57,4 +57,4 @@ se abra directamente en el navegador bajo el puerto 4200.
 
 							ng serve --o
 
-8. Listo, app corriendo.
+8. Listo, app corriendo en el puerto 4200.
