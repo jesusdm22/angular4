@@ -7,3 +7,42 @@ Angular es un framework de desarrollo basado en Javascript y creado por Google, 
 Una aplicación SPA o Single Page Application es una aplicación web construida en una sola página con el propósito de proporcionar una experiencia más fluida a los usuarios y adaptando una forma parecida a la de una aplicación de escritorio. La navegación entre secciones y páginas pertenecientes a la aplicación se hace de manera dinámica e instantánea resaltando que en ningún momento se recarga la página ni carga otra página (puesto que además de por otras razones, la aplicación trabaja y fluye con una sola página).
 
 ¿Qué conocimientos previos se debe tener?
+
+
+
+
+
+---------------------------------------------------------------------------------
+
+INSTALACIÓN DE NODEJS + ANGULAR 4
+
+
+1.Instalamos NodeJS desde https://nodejs.org/. ***(SALTAR SI YA ESTÁ INSTALADO)***
+
+2.Abrimos línea de comandos con permisos de administrador e instalamos Angular-CLI
+						
+						npm install -g angular-cli
+
+
+3.Ahora creamos nuestro proyecto en el directorio que deseemos.
+
+						ng new <Nombre del proyecto>
+
+
+4.Accedemos dentro del directorio del proyecto y comprobamos la versión de Angular JS.
+
+								ng -v
+
+
+5. Actualizar a la última version de Angular
+
+			npm install @angular/common@latest @angular/compiler@latest @angular/compiler-cli@latest @angular/core@latest @angular/forms@latest @angular/http@latest @angular/platform-browser@latest @angular/platform-browser-dynamic@latest @angular/platform-server@latest @angular/router@latest @angular/animations@latest typescript@latest --save
+
+
+6. Volvemos a comprobar la versión de Angular y es ahora cuando vemos que ya disponemos de Angular 4.
+
+7. Lanzamos la aplicación, al colocar el comando –o al final lo que conseguimos es que cuando termine de compilar se abra directamente en el navegador bajo el puerto 4200.
+
+							ng serve --o
+
+8. Listo, app corriendo.
