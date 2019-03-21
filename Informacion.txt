@@ -15,7 +15,8 @@ a la aplicación se hace de manera dinámica e instantánea resaltando que en ni
 página ni carga otra página (puesto que además de por otras razones, la aplicación trabaja y fluye con una sola página).
 
 ¿Qué conocimientos previos se debe tener?
-
+Para comenzar a introducirnos en Angular, se recomienda tener un conocimiento previo en algunos campos como HTML, CSS,
+Javascript, Typescript o DOM. 
 
 
 
