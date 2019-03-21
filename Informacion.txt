@@ -1,10 +1,18 @@
-El siguiente proyecto trata la construcción de una aplicación web en el lenguaje Angular. Para este proceso, se debe poseer un conocimiento previo en HTML, CSS y Javascript para posteriormente poder hacer hincapié en el aprendizaje de Angular hasta poder llegar a realizar una sencilla aplicación la cual servirá como primer proyecto de aprendizaje e iniciación en Angular 4.
+El siguiente proyecto trata la construcción de una aplicación web en el lenguaje Angular. 
+Para este proceso, se debe poseer un conocimiento previo en HTML, CSS y Javascript para 
+posteriormente poder hacer hincapié en el aprendizaje de Angular hasta poder llegar a 
+realizar una sencilla aplicación la cual servirá como primer proyecto de aprendizaje e iniciación en Angular 4.
 
 ¿Qué es Angular?
-Angular es un framework de desarrollo basado en Javascript y creado por Google, el cual nos permite el desarrollo de aplicaciones SPA y que nos permite trabajar con los elementos de la web de una manera óptima y sencilla.
+Angular es un framework de desarrollo basado en Javascript y creado por Google, el cual nos permite 
+el desarrollo de aplicaciones SPA y que nos permite trabajar con los elementos de la web de una manera óptima y sencilla.
 
 ¿Qué es una aplicación SPA?
-Una aplicación SPA o Single Page Application es una aplicación web construida en una sola página con el propósito de proporcionar una experiencia más fluida a los usuarios y adaptando una forma parecida a la de una aplicación de escritorio. La navegación entre secciones y páginas pertenecientes a la aplicación se hace de manera dinámica e instantánea resaltando que en ningún momento se recarga la página ni carga otra página (puesto que además de por otras razones, la aplicación trabaja y fluye con una sola página).
+Una aplicación SPA o Single Page Application es una aplicación web construida en una sola página 
+con el propósito de proporcionar una experiencia más fluida a los usuarios y adaptando una forma 
+parecida a la de una aplicación de escritorio. La navegación entre secciones y páginas pertenecientes
+a la aplicación se hace de manera dinámica e instantánea resaltando que en ningún momento se recarga la 
+página ni carga otra página (puesto que además de por otras razones, la aplicación trabaja y fluye con una sola página).
 
 ¿Qué conocimientos previos se debe tener?
 
