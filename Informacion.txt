@@ -35,7 +35,8 @@ INSTALACIÓN DE NODEJS + ANGULAR 4
 					      sudo npm install -g @angular/cli
 
 
-3. Ahora creamos nuestro proyecto en el directorio que deseemos.
+3. Ahora nos situamos en el directorio donde queramos alojar nuestro proyecto de Angular (que en este caso está en un
+directorio que he creado dentro de la carpeta /opt) y tras ello ejecutamos el siguiente comando:
 
 						ng new <Nombre del proyecto>
 						
