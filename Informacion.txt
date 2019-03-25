@@ -48,19 +48,10 @@ Cuando se nos pida qué CSS queremos usar, simplemente pulsamos "Enter"
 							ng -v
 
 
-5. Actualizar a la última version de Angular
-
-		npm install @angular/common@latest @angular/compiler@latest @angular/compiler-cli@latest 
-		@angular/core@latest @angular/forms@latest @angular/http@latest @angular/platform-browser@latest
-		@angular/platform-browser-dynamic@latest @angular/platform-server@latest @angular/router@latest 
-		@angular/animations@latest typescript@latest --save
-
-
-6. Volvemos a comprobar la versión de Angular y es ahora cuando vemos que ya disponemos de Angular 4.
 
 7. Lanzamos la aplicación, al colocar el comando –o al final lo que conseguimos es que cuando termine de compilar
 se abra directamente en el navegador bajo el puerto 4200.
 
-							ng serve --o
+							ng serve 
 
 8. Listo, app corriendo en el puerto 4200.
