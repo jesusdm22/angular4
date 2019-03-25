@@ -49,9 +49,9 @@ Cuando se nos pida qué CSS queremos usar, simplemente pulsamos "Enter"
 
 
 
-7. Lanzamos la aplicación, al colocar el comando –o al final lo que conseguimos es que cuando termine de compilar
+5. Lanzamos la aplicación, al colocar el comando –o al final lo que conseguimos es que cuando termine de compilar
 se abra directamente en el navegador bajo el puerto 4200.
 
 							ng serve 
 
-8. Listo, app corriendo en el puerto 4200.
+6. Listo, app corriendo en el puerto 4200.
