@@ -32,7 +32,7 @@ INSTALACIÓN DE NODEJS + ANGULAR 4
 
 2. Abrimos línea de comandos con permisos de administrador e instalamos Angular-CLI
 						
-						npm install -g angular-cli
+					      sudo npm install -g @angular/cli
 
 
 3. Ahora creamos nuestro proyecto en el directorio que deseemos.
