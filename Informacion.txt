@@ -38,6 +38,9 @@ INSTALACIÓN DE NODEJS + ANGULAR 4
 3. Ahora creamos nuestro proyecto en el directorio que deseemos.
 
 						ng new <Nombre del proyecto>
+						
+Llegados a este paso, se nos pedirá si queremos usar el routing de Angular, le diremos que NO.
+Cuando se nos pida qué CSS queremos usar, simplemente pulsamos "Enter"
 
 
 4. Accedemos dentro del directorio del proyecto y comprobamos la versión de Angular JS.
