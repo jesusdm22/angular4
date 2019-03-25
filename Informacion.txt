@@ -30,29 +30,34 @@ INSTALACIÓN DE NODEJS + ANGULAR 4
 
 1. Instalamos NodeJS desde https://nodejs.org/. ***(SALTAR SI YA ESTÁ INSTALADO)***
 
-2. Abrimos línea de comandos con permisos de administrador e instalamos Angular-CLI
+
+2. Abrimos el puerto 4200 en nuestro firewall. Este será el puerto que ocupe Angular y mediante el cual trabajaremos.
+
+
+3. Abrimos línea de comandos con permisos de administrador e instalamos Angular-CLI.
 						
 					      sudo npm install -g @angular/cli
+				      
 
-
-3. Ahora nos situamos en el directorio donde queramos alojar nuestro proyecto de Angular (que en este caso está en un
+4. Ahora nos situamos en el directorio donde queramos alojar nuestro proyecto de Angular (que en este caso está en un
 directorio que he creado dentro de la carpeta /opt) y tras ello ejecutamos el siguiente comando:
 
 						ng new <Nombre del proyecto>
-						
+
+
 Llegados a este paso, se nos pedirá si queremos usar el routing de Angular, le diremos que NO.
 Cuando se nos pida qué CSS queremos usar, simplemente pulsamos "Enter"
 
 
-4. Accedemos dentro del directorio del proyecto y comprobamos la versión de Angular JS.
+5. Accedemos dentro del directorio del proyecto y comprobamos la versión de Angular JS.
 
 							ng -v
 
 
-
-5. Lanzamos la aplicación, al colocar el comando –o al final lo que conseguimos es que cuando termine de compilar
+6. Lanzamos la aplicación, al colocar el comando –o al final lo que conseguimos es que cuando termine de compilar
 se abra directamente en el navegador bajo el puerto 4200.
 
 							ng serve 
 
-6. Listo, app corriendo en el puerto 4200.
+
+7. Listo, la aplicación ya estará corriendo en el puerto 4200.
