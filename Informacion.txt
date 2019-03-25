@@ -25,10 +25,10 @@ Angular 4, entre otras. Nosotros llevaremos a cabo este trabajo con la versión 
 
 
 
-INSTALACIÓN DE NODEJS + ANGULAR 4
+· INSTALACIÓN DE NODEJS + ANGULAR 4 CON BOOTSTRAP Y TETHER
 
 
-1. Instalamos NodeJS desde https://nodejs.org/. ***(SALTAR SI YA ESTÁ INSTALADO)***
+1. Instalamos NodeJS desde https://nodejs.org/ con una versión superior a la versión 9 [SALTAR SI YA ESTÁ INSTALADO].
 
 
 2. Abrimos el puerto 4200 en nuestro firewall. Este será el puerto que ocupe Angular y mediante el cual trabajaremos.
@@ -44,20 +44,29 @@ directorio que he creado dentro de la carpeta /opt) y tras ello ejecutamos el si
 
 						ng new <Nombre del proyecto>
 
-
-Llegados a este paso, se nos pedirá si queremos usar el routing de Angular, le diremos que NO.
-Cuando se nos pida qué CSS queremos usar, simplemente pulsamos "Enter"
+Llegados a este paso, se nos pedirá si queremos usar el routing de Angular, le diremos que NO. Cuando se nos pida qué
+CSS queremos usar, simplemente pulsamos "Enter".
 
 
 5. Accedemos dentro del directorio del proyecto y comprobamos la versión de Angular JS.
 
-							ng -v
+							  ng version
 
 
-6. Lanzamos la aplicación, al colocar el comando –o al final lo que conseguimos es que cuando termine de compilar
-se abra directamente en el navegador bajo el puerto 4200.
+7. Listo, la aplicación ya estará corriendo en el puerto 4200. Lo próximo que haremos será instalar las librerías de
+Bootstrap, Tether y jQuery situándonos en el directorio de nuestro proyecto Angular.
 
-							ng serve 
+						npm install bootstrap jquery tether
 
 
-7. Listo, la aplicación ya estará corriendo en el puerto 4200.
+
+---------------------------------------------------------------------------------
+
+
+
+· VINCULACIÓN DE BOOTSTRAP Y TETHER CON ANGULAR 4
+
+
+1. Para vincular tanto Bootstrap como Tether con Angular, debemos de dirigirnos hacia el archivo "angular.json" y
+modificaremos la línea de "styles" donde añadiremos la ruta hacia nuestro Bootstrap y Tether de la siguiente manera:
+
