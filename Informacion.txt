@@ -53,47 +53,8 @@ CSS queremos usar, simplemente pulsamos "Enter".
 							  ng version
 
 
-6. Listo, la aplicación ya estará corriendo en el puerto 4200. Lo próximo que haremos será instalar las librerías de
-Bootstrap, Tether y jQuery situándonos en el directorio de nuestro proyecto Angular.
-
-						npm install bootstrap jquery tether
+6. Listo, la aplicación ya estará corriendo en el puerto 4200.
 
 
 
 ---------------------------------------------------------------------------------
-
-
-
-· VINCULACIÓN DE BOOTSTRAP Y TETHER CON ANGULAR 4
-
-
-1. Para vincular tanto Bootstrap como Tether con Angular, debemos de dirigirnos hacia el archivo "angular.json" y
-modificaremos la línea de styles y scripts donde añadiremos la ruta hacia nuestro Bootstrap y Tether de la siguiente manera:
-
-				"styles": [
-					"../node_modules/bootstrap/dist/css/bootstrap.css"
-				],
-				"scripts": [
-					"../node_modules/jquery/dist/jquery.js",
-					"../node_modules/tether/dist/js/tether.js,
-					"../node_modules/bootstrap/dist/js/bootstrap.js"
-				]
-				
-Lo que hacemos con estos parámetros es utilizar y aplicar el código almacenado en estos archivos JS en nuestra aplicación Angular.
-
-
-2. A continuación, debemos de arrancar el servicio de Angular en el directorio donde alojamos nuestra app con: ng serve. Esto puede
-presentar problemas los cuales tendremos la posibilidad de solucionar actualizando el cliente de Angular tecleando los siguientes
-comandos en el orden en el que te se indica:
-
-				    *** HACER SOLO ESTO SI TU VERSIÓN DE ANGULAR ES ANTIGUA ***
-
-						~ npm uninstall -g angular-cli
-						
-						~ npm uninstall --save-dev angular-cli
-						
-						~ npm uninstall -g @angular-cli
-						
-						~ npm cache clean
-						
-						~ npm install -g @angular/cli@latest
