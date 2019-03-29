@@ -53,7 +53,11 @@ CSS queremos usar, simplemente pulsamos "Enter".
 							  ng version
 
 
-6. Listo, la aplicación ya estará corriendo en el puerto 4200.
+6. Por último, ya solo nos queda arrancar el servicio de nuestra aplicación Angular. Al arrancarlo, Angular nos mostrará su
+página por defecto aunque puedes probar a utilizar nuestro archivo "Hola Mundo" para comprobar el correcto funcionamiento
+del proyecto.
+
+						ng serve --host <Dirección IP servidor>
 
 
 
