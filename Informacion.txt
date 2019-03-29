@@ -1,3 +1,16 @@
+                     ___   _   _  _____  _   _  _       ___  ______        ___ 
+                    / _ \ | \ | ||  __ \| | | || |     / _ \ | ___ \      /   |
+                   / /_\ \|  \| || |  \/| | | || |    / /_\ \| |_/ /     / /| |
+                   |  _  || . ` || | __ | | | || |    |  _  ||    /     / /_| |
+                   | | | || |\  || |_\ \| |_| || |____| | | || |\ \     \___  |
+                   \_| |_/\_| \_/ \____/ \___/ \_____/\_| |_/\_| \_|        |_/
+                                                       	
+		TRABAJO REALIZADO POR JESÚS DÍAZ MUÑOZ Y CRISTIAN CABRERA GONZÁLEZ
+			-----	CREA TU APLICACIÓN CON ANGULAR 4   -----
+
+-----------------------------------------------------------------------------------------------------------
+
+
 El siguiente proyecto trata la construcción de una aplicación web en el lenguaje Angular. 
 Para este proceso, se debe poseer un conocimiento previo en HTML, CSS y Javascript para 
 posteriormente poder hacer hincapié en el aprendizaje de Angular hasta poder llegar a 
@@ -20,7 +33,6 @@ Javascript, Typescript o DOM. Así mismo, Angular posee numerosas versiones con 
 Angular 4, entre otras. Nosotros llevaremos a cabo este trabajo con la versión Angular 4.
 
 
-
 -----------------------------------------------------------------------------------------------------------
 
 IMPORTANTE: Antes de comenzar, se recomienda tener un servidor con un mínimo de 2 GB de RAM.
@@ -28,7 +40,6 @@ En caso de no tenerlo, se debería hacer un aumento de memoria swap para evitar 
 de trabajo y tareas del servidor sea demasiado alto.
 
 -----------------------------------------------------------------------------------------------------------
-
 
 
 · INSTALACIÓN DE NODEJS + ANGULAR 4
@@ -66,8 +77,5 @@ del proyecto.
 						ng serve --host <Dirección IP servidor>
 
 
-
 ---------------------------------------------------------------------------------
-
-
 
