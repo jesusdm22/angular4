@@ -76,7 +76,24 @@ modificaremos la línea de styles y scripts donde añadiremos la ruta hacia nues
 				"scripts": [
 					"../node_modules/jquery/dist/jquery.js",
 					"../node_modules/tether/dist/js/tether.js,
-					"../node_modules/bootstrap/dist/js/bootstrap.js
+					"../node_modules/bootstrap/dist/js/bootstrap.js"
 				]
 				
-** CONTINUAR EL PRÓXIMO DÍA... **
+Lo que hacemos con estos parámetros es utilizar y aplicar el código almacenado en estos archivos JS en nuestra aplicación Angular.
+
+
+2. A continuación, debemos de arrancar el servicio de Angular en el directorio donde alojamos nuestra app con: ng serve. Esto puede
+presentar problemas los cuales tendremos la posibilidad de solucionar actualizando el cliente de Angular tecleando los siguientes
+comandos en el orden en el que te se indica:
+
+				    *** HACER SOLO ESTO SI TU VERSIÓN DE ANGULAR ES ANTIGUA ***
+
+						~ npm uninstall -g angular-cli
+						
+						~ npm uninstall --save-dev angular-cli
+						
+						~ npm uninstall -g @angular-cli
+						
+						~ npm cache clean
+						
+						~ npm install -g @angular/cli@latest
