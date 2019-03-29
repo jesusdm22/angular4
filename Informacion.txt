@@ -75,7 +75,3 @@ página por defecto aunque puedes probar a utilizar nuestro archivo "Hola Mundo"
 del proyecto.
 
 						ng serve --host <Dirección IP servidor>
-
-
----------------------------------------------------------------------------------
-
