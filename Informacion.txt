@@ -25,7 +25,7 @@ Angular 4, entre otras. Nosotros llevaremos a cabo este trabajo con la versión 
 
 
 
-· INSTALACIÓN DE NODEJS + ANGULAR 4 CON BOOTSTRAP Y TETHER
+· INSTALACIÓN DE NODEJS + ANGULAR 4
 
 
 1. Instalamos NodeJS desde https://nodejs.org/ con una versión superior a la versión 9 [SALTAR SI YA ESTÁ INSTALADO].
